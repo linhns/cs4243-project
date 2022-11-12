@@ -1,5 +1,4 @@
 ## How to run our programs
----
 There are two ways to run the notebooks in this folder:
 
    1. **Preferred**: Unzip in this folder and upload it onto Google Drive, after that all the code can be run without modification. Authorization to access Google Drive is required when mounting.
