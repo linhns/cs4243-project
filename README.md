@@ -7,13 +7,14 @@ There are two ways to run the notebooks in this folder:
       3. Run the code. Authorization to access Google Drive is required when mounting.
    2. **Alternative**:
       1. Download and unzip in this folder
-      2. Download data according to the section *Download data* below and put it in the same folder as the code
-      3. Remove all Google Drive mount code cells
-      4. Adjust all the paths to the path where data is stored, e.g:
+      2. Create a conda environment according to `environment.yml`
+      3. Download data according to the section *Download data* below and put it in the same folder as the code
+      4. Remove all Google Drive mount code cells
+      5. Adjust all the paths to the path where data is stored, e.g:
           ```python
           data_dir = pathlib.Path('/content/gdrive/MyDrive/CS4243/data')
           ```
-      5. Run the code
+      6. Run the code
 
 This folder consists of 4 notebooks:
    * `project-resnet.ipynb`: Data preprocessing and transfer learning/finetuning of `ResNet50V2`.

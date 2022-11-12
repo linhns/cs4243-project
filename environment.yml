@@ -20,5 +20,3 @@ dependencies:
 
   - pip:
       - tensorflow-gpu
-      - tf2onnx
-      - onnxruntime
